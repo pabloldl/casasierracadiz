@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060">
+<defs>
+ <linearGradient id="wall" x2="1" y2=".4"><stop stop-color="#f2ede3"/><stop offset="1" stop-color="#e2d9c9"/></linearGradient>
+ <linearGradient id="recess"><stop stop-color="#544139"/><stop offset=".14" stop-color="#876f5a"/><stop offset=".2" stop-color="#b09b7e"/><stop offset="1" stop-color="#c9b79a"/></linearGradient>
+ <linearGradient id="door" x2="1" y2="1"><stop stop-color="#85473f"/><stop offset="1" stop-color="#683a36"/></linearGradient>
+ <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#c2ad8c"/><stop offset="1" stop-color="#e4d7c0"/></linearGradient>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs>
+<g filter="url(#grain)">
+ <path fill="#c4a47a" d="M0 0h1000v1060H0z"/>
+ <path fill="url(#wall)" d="M0 0h1000v904H0z"/>
+ <path fill="#d7cbb8" d="M0 0h162v904H0z"/>
+ <path fill="#c1b198" d="M162 0h24v904h-24z"/>
+ <path fill="#e9e1d1" d="M0 0h1000v110H0z"/>
+ <path fill="#a89a84" opacity=".38" d="m0 110 1000 0v48L0 348z"/>
+ <path fill="#f9f5ea" d="M0 89h1000v21H0z"/>
+ <path fill="#b3a086" d="M348 286h440v618H348z"/>
+ <path fill="#faf5e8" d="M325 263h440v641h-25V287H350v617h-25z"/>
+ <path fill="url(#recess)" d="M350 287h390v617H350z"/>
+ <path fill="#3d3530" d="M383 315h324v589H383z"/>
+ <path fill="url(#door)" d="M397 326h299v578H397z"/>
+ <g fill="none" stroke="#4d2f2b" stroke-width="5"><path d="M420 350h253v220H420zM420 595h253v274H420z"/></g>
+ <g fill="none" stroke="#ab6b5b" stroke-opacity=".6" stroke-width="2"><path d="M425 355h243v210H425zM425 600h243v264H425z"/></g>
+ <path stroke="#bd9d69" stroke-width="5" d="M657 570v42"/>
+ <circle fill="#b99b6c" cx="657" cy="583" r="6"/>
+ <path fill="#6a5440" d="M325 904h440v20H325z"/>
+ <path fill="url(#ground)" d="M0 924h1000v136H0z"/>
+ <path fill="#d1c0a3" d="M0 904h1000v20H0z"/>
+ <path fill="#8e7b60" opacity=".4" d="m350 924 390 0 174 136H492z"/>
+ <path fill="#baaa90" d="m0 904 162 0L0 1040z"/>
+ <g stroke="#ae9877" opacity=".6"><path d="M0 996h1000M250 924l-80 136M770 924l130 136"/></g>
+ <path fill="#ac9a7f" opacity=".5" d="M796 330h112v118H796z"/>
+ <path fill="#faf8f3" d="M786 320h112v118H786z"/>
+ <path fill="none" stroke="#7e403b" stroke-width="2" d="M793 327h98v104h-98z"/>
+ <text x="842" y="400" fill="#7e403b" font-size="65" text-anchor="middle" font-family="Georgia,serif">20</text>
+ <path fill="#c1b399" opacity=".45" d="m1000 162-113 0 113 370z"/>
+</g></svg>
