@@ -1,3 +1,37 @@
+# Actualización fotográfica — 28 de octubre de 2026
+
+Se conserva la web en HTML, CSS y JavaScript vanilla, sin compilación ni despliegue. Las fotografías recibidas están en `img/`; no existe `imgs/` en este proyecto. Los siete JPG originales se conservan intactos.
+
+## Revisión de las fotografías
+
+| Original | Resolución | Contenido y selección |
+| --- | --- | --- |
+| 31.jpg | 1600 × 1200, horizontal | Fachada: seleccionada para la portada por mostrar la vivienda completa. |
+| 32.jpg | 1200 × 1600, vertical | Acceso exterior con plantas: seleccionada, sin recortar. |
+| 43.jpg | 1600 × 1200, horizontal | Salón: seleccionada como vista amplia del interior. |
+| 42.jpg | 1600 × 1200, horizontal | Comedor y arco hacia cocina: seleccionada; no constituye una vista completa de la cocina. |
+| 39.jpg | 1600 × 1200, horizontal | Otra vista del salón: descartada por sombras profundas y contraluz. |
+| 125.jpg | 1600 × 1200, horizontal | Calle vista desde la vivienda: descartada para priorizar los espacios de la casa. |
+| 81-1.jpg | 1600 × 1200, horizontal | Piscina y patio: no publicada al faltar confirmación de pertenencia y condiciones de uso. |
+
+Las fotografías tienen resolución suficiente para el diseño. Los interiores presentan luz desigual y el acceso sombras marcadas; se mantienen su aspecto auténtico y sus proporciones, sin ampliación artificial. No se han identificado fotos de dormitorios ni baños.
+
+## Integración y comprobaciones
+
+Portada con fachada auténtica y galería de salón, acceso y comedor. WebP con calidad 84 y anchos de 640, 1200 y, cuando el original lo permite, 1600 px. Selección responsive mediante srcset, dimensiones explícitas, textos alternativos y carga diferida fuera de portada. Las imágenes se muestran completas; enlaces nativos permiten ampliarlas en otra pestaña con ratón, teclado o toque, sin visor personalizado.
+
+Se mantienen cabecera, navegación, fuentes, colores, animación de portada, dirección, teléfono, enlaces y JavaScript original. La ilustración SVG se conserva como archivo, pero deja de mostrarse.
+
+Chrome local: cuatro imágenes cargadas y destinos de enlaces internos existentes en 375, 768, 1440 y 1920 px, sin desbordamiento horizontal. Inspección visual de capturas a 375 y 1440 px. Emulación móvil a 375 px; no se ha probado en un iPhone físico. JavaScript original validado con node --check.
+
+**Autorización de publicación:** el usuario confirma el 28 de octubre de 2026 que tiene autorización para publicar las fotografías aportadas. No se ha desplegado la web.
+
+---
+
+## Documentación histórica de la versión inicial
+
+Los apartados siguientes describen la versión anterior a la integración fotográfica; sus referencias a la ilustración en portada y a la ausencia de galería han quedado sustituidas por la actualización anterior.
+
 # Casa Sierra de Cádiz — CASA / 20
 
 Landing estática independiente en HTML5, CSS3 y JavaScript vanilla. Abrir `index.html` con Live Server en VS Code. No necesita instalación, compilación ni servicios externos para mostrar el contenido. No se ha realizado ningún despliegue.
